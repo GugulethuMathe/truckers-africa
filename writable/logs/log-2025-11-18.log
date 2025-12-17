@@ -1,0 +1,10 @@
+CRITICAL - 2025-11-18 20:36:15 --> CodeIgniter\Filters\Exceptions\FilterException: "login" filter must have a matching alias defined.
+in SYSTEMPATH\Filters\Filters.php on line 352.
+ 1 SYSTEMPATH\Filters\Filters.php(352): CodeIgniter\Filters\Exceptions\FilterException::forNoAlias('login')
+ 2 SYSTEMPATH\Filters\Filters.php(406): CodeIgniter\Filters\Filters->enableFilter('login', 'before')
+ 3 SYSTEMPATH\Commands\Utilities\Routes\FilterFinder.php(63): CodeIgniter\Filters\Filters->enableFilters([...], 'before')
+ 4 SYSTEMPATH\Commands\Utilities\Routes\FilterCollector.php(62): CodeIgniter\Commands\Utilities\Routes\FilterFinder->find('order/place')
+ 5 SYSTEMPATH\Commands\Utilities\Routes.php(122): CodeIgniter\Commands\Utilities\Routes\FilterCollector->get('post', 'order/place')
+ 6 SYSTEMPATH\CLI\Commands.php(65): CodeIgniter\Commands\Utilities\Routes->run([])
+ 7 SYSTEMPATH\CLI\Console.php(46): CodeIgniter\CLI\Commands->run('routes', [])
+ 8 ROOTPATH\spark(102): CodeIgniter\CLI\Console->run()

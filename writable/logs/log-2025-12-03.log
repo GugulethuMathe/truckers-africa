@@ -1,0 +1,9 @@
+CRITICAL - 2025-12-03 20:11:20 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "driver/route_view.php"
+in SYSTEMPATH/Exceptions/FrameworkException.php on line 39.
+ 1 SYSTEMPATH/View/View.php(216): CodeIgniter\Exceptions\FrameworkException::forInvalidFile()
+ 2 SYSTEMPATH/Common.php(1178): CodeIgniter\View\View->render()
+ 3 APPPATH/Controllers/Routes.php(58): view()
+ 4 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Routes->view()
+ 5 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(83): CodeIgniter\CodeIgniter->run()

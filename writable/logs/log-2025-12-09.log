@@ -1,0 +1,719 @@
+ERROR - 2025-12-09 16:07:11 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2025-12-09 16:07:11 --> 220 da100.is.cc ESMTP Exim 4.98.2 Tue, 09 Dec 2025 09:07:11 -0500
+
+hello: 250-da100.is.cc Hello da100.is.cc [209.159.148.130]
+250-SIZE 52428800
+250-LIMITS MAILMAX=100 RCPTMAX=150
+250-8BITMIME
+250-PIPELINING
+250-PIPECONNECT
+250-STARTTLS
+250 HELP
+
+starttls: 220 TLS go ahead
+
+hello: 250-da100.is.cc Hello da100.is.cc [209.159.148.130]
+250-SIZE 52428800
+250-LIMITS MAILMAX=100 RCPTMAX=150
+250-8BITMIME
+250-PIPELINING
+250-PIPECONNECT
+250-AUTH PLAIN LOGIN
+250 HELP
+
+Failed to authenticate password. Error: 535 Incorrect authentication data
+
+ERROR - 2025-12-09 16:07:11 --> Contact form email failed: 220 da100.is.cc ESMTP Exim 4.98.2 Tue, 09 Dec 2025 09:07:11 -0500
+<br><pre>hello: 250-da100.is.cc Hello da100.is.cc [209.159.148.130]
+250-SIZE 52428800
+250-LIMITS MAILMAX=100 RCPTMAX=150
+250-8BITMIME
+250-PIPELINING
+250-PIPECONNECT
+250-STARTTLS
+250 HELP
+</pre><pre>starttls: 220 TLS go ahead
+</pre><pre>hello: 250-da100.is.cc Hello da100.is.cc [209.159.148.130]
+250-SIZE 52428800
+250-LIMITS MAILMAX=100 RCPTMAX=150
+250-8BITMIME
+250-PIPELINING
+250-PIPECONNECT
+250-AUTH PLAIN LOGIN
+250 HELP
+</pre>Failed to authenticate password. Error: 535 Incorrect authentication data
+<br>Unable to send email using SMTP. Your server might not be configured to send mail using this method.<br><pre>Date: Tue, 9 Dec 2025 16:07:10 +0200
+To: admin@truckersafrica.com
+From: &quot;Trevor (Eco 1 Stop)&quot; &lt;trevor@1stoptruckinn.co.za&gt;
+Return-Path: &lt;trevor@1stoptruckinn.co.za&gt;
+Subject: =?UTF-8?Q?Contact=20Form=20Submission=20-=20Truckers=20Africa?=
+Reply-To: &lt;trevor@1stoptruckinn.co.za&gt;
+User-Agent: CodeIgniter
+X-Sender: trevor@1stoptruckinn.co.za
+X-Mailer: CodeIgniter
+X-Priority: 3 (Normal)
+Message-ID: &lt;69382d0ee57b82.26179182@1stoptruckinn.co.za&gt;
+Mime-Version: 1.0
+
+</pre>
+ERROR - 2025-12-09 21:59:57 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2025-12-09 21:59:57 --> 220 da100.is.cc ESMTP Exim 4.98.2 Tue, 09 Dec 2025 14:59:56 -0500
+
+hello: 250-da100.is.cc Hello da100.is.cc [209.159.148.130]
+250-SIZE 52428800
+250-LIMITS MAILMAX=100 RCPTMAX=150
+250-8BITMIME
+250-PIPELINING
+250-PIPECONNECT
+250-STARTTLS
+250 HELP
+
+starttls: 220 TLS go ahead
+
+hello: 250-da100.is.cc Hello da100.is.cc [209.159.148.130]
+250-SIZE 52428800
+250-LIMITS MAILMAX=100 RCPTMAX=150
+250-8BITMIME
+250-PIPELINING
+250-PIPECONNECT
+250-AUTH PLAIN LOGIN
+250 HELP
+
+Failed to authenticate password. Error: 535 Incorrect authentication data
+
+ERROR - 2025-12-09 21:59:57 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2025-12-09 21:59:57 --> 220 da100.is.cc ESMTP Exim 4.98.2 Tue, 09 Dec 2025 14:59:56 -0500
+
+hello: 250-da100.is.cc Hello da100.is.cc [209.159.148.130]
+250-SIZE 52428800
+250-LIMITS MAILMAX=100 RCPTMAX=150
+250-8BITMIME
+250-PIPELINING
+250-PIPECONNECT
+250-STARTTLS
+250 HELP
+
+starttls: 220 TLS go ahead
+
+hello: 250-da100.is.cc Hello da100.is.cc [209.159.148.130]
+250-SIZE 52428800
+250-LIMITS MAILMAX=100 RCPTMAX=150
+250-8BITMIME
+250-PIPELINING
+250-PIPECONNECT
+250-AUTH PLAIN LOGIN
+250 HELP
+
+Failed to authenticate password. Error: 535 Incorrect authentication data
+
+Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+Failed to authenticate password. Error: 535 Incorrect authentication data
+
+ERROR - 2025-12-09 21:59:57 --> Failed to send order emails: Undefined array key "first_name"
+ERROR - 2025-12-09 22:00:02 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2025-12-09 22:00:02 --> 220 da100.is.cc ESMTP Exim 4.98.2 Tue, 09 Dec 2025 14:59:56 -0500
+
+hello: 250-da100.is.cc Hello da100.is.cc [209.159.148.130]
+250-SIZE 52428800
+250-LIMITS MAILMAX=100 RCPTMAX=150
+250-8BITMIME
+250-PIPELINING
+250-PIPECONNECT
+250-STARTTLS
+250 HELP
+
+starttls: 220 TLS go ahead
+
+hello: 250-da100.is.cc Hello da100.is.cc [209.159.148.130]
+250-SIZE 52428800
+250-LIMITS MAILMAX=100 RCPTMAX=150
+250-8BITMIME
+250-PIPELINING
+250-PIPECONNECT
+250-AUTH PLAIN LOGIN
+250 HELP
+
+Failed to authenticate password. Error: 535 Incorrect authentication data
+
+Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+Failed to authenticate password. Error: 535 Incorrect authentication data
+
+Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+Failed to send AUTH LOGIN command. Error: 
+ERROR - 2025-12-09 22:00:07 --> Email: sendWithSmtp throwed ErrorException: fwrite(): SSL: Connection reset by peer in /home/tlouelea/domains/truckersafrica.com/public_html/system/Email/Email.php:2076
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /home/tlouelea/domains/truckersafrica.com/public_html/system/Email/Email.php(2076): fwrite()
+#2 /home/tlouelea/domains/truckersafrica.com/public_html/system/Email/Email.php(1961): CodeIgniter\Email\Email->sendData()
+#3 /home/tlouelea/domains/truckersafrica.com/public_html/system/Email/Email.php(1814): CodeIgniter\Email\Email->sendCommand()
+#4 /home/tlouelea/domains/truckersafrica.com/public_html/system/Email/Email.php(1695): CodeIgniter\Email\Email->sendWithSmtp()
+#5 /home/tlouelea/domains/truckersafrica.com/public_html/system/Email/Email.php(1587): CodeIgniter\Email\Email->spoolEmail()
+#6 /home/tlouelea/domains/truckersafrica.com/public_html/app/Services/NotificationService.php(468): CodeIgniter\Email\Email->send()
+#7 /home/tlouelea/domains/truckersafrica.com/public_html/app/Services/NotificationService.php(339): App\Services\NotificationService->sendEmail()
+#8 /home/tlouelea/domains/truckersafrica.com/public_html/app/Services/NotificationService.php(134): App\Services\NotificationService->sendOrderPlacedEmailToDriver()
+#9 /home/tlouelea/domains/truckersafrica.com/public_html/app/Controllers/Order.php(395): App\Services\NotificationService->notifyOrderPlaced()
+#10 /home/tlouelea/domains/truckersafrica.com/public_html/system/CodeIgniter.php(941): App\Controllers\Order->completeOrder()
+#11 /home/tlouelea/domains/truckersafrica.com/public_html/system/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+#12 /home/tlouelea/domains/truckersafrica.com/public_html/system/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+#13 /home/tlouelea/domains/truckersafrica.com/public_html/index.php(83): CodeIgniter\CodeIgniter->run()
+#14 {main}
+ERROR - 2025-12-09 22:00:07 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2025-12-09 22:00:07 --> 220 da100.is.cc ESMTP Exim 4.98.2 Tue, 09 Dec 2025 14:59:56 -0500
+
+hello: 250-da100.is.cc Hello da100.is.cc [209.159.148.130]
+250-SIZE 52428800
+250-LIMITS MAILMAX=100 RCPTMAX=150
+250-8BITMIME
+250-PIPELINING
+250-PIPECONNECT
+250-STARTTLS
+250 HELP
+
+starttls: 220 TLS go ahead
+
+hello: 250-da100.is.cc Hello da100.is.cc [209.159.148.130]
+250-SIZE 52428800
+250-LIMITS MAILMAX=100 RCPTMAX=150
+250-8BITMIME
+250-PIPELINING
+250-PIPECONNECT
+250-AUTH PLAIN LOGIN
+250 HELP
+
+Failed to authenticate password. Error: 535 Incorrect authentication data
+
+Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+Failed to authenticate password. Error: 535 Incorrect authentication data
+
+Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+Failed to send AUTH LOGIN command. Error: 
+Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2025-12-09 22:00:07 --> Failed to send order emails: Undefined array key "first_name"
+ERROR - 2025-12-09 22:00:07 --> Email: sendWithSmtp throwed ErrorException: fwrite(): SSL operation failed with code 1. OpenSSL Error messages:
+error:1409E10F:SSL routines:ssl3_write_bytes:bad length in /home/tlouelea/domains/truckersafrica.com/public_html/system/Email/Email.php:2076
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /home/tlouelea/domains/truckersafrica.com/public_html/system/Email/Email.php(2076): fwrite()
+#2 /home/tlouelea/domains/truckersafrica.com/public_html/system/Email/Email.php(2026): CodeIgniter\Email\Email->sendData()
+#3 /home/tlouelea/domains/truckersafrica.com/public_html/system/Email/Email.php(1810): CodeIgniter\Email\Email->SMTPAuthenticate()
+#4 /home/tlouelea/domains/truckersafrica.com/public_html/system/Email/Email.php(1695): CodeIgniter\Email\Email->sendWithSmtp()
+#5 /home/tlouelea/domains/truckersafrica.com/public_html/system/Email/Email.php(1587): CodeIgniter\Email\Email->spoolEmail()
+#6 /home/tlouelea/domains/truckersafrica.com/public_html/app/Services/NotificationService.php(468): CodeIgniter\Email\Email->send()
+#7 /home/tlouelea/domains/truckersafrica.com/public_html/app/Services/NotificationService.php(362): App\Services\NotificationService->sendEmail()
+#8 /home/tlouelea/domains/truckersafrica.com/public_html/app/Services/NotificationService.php(98): App\Services\NotificationService->sendOrderPlacedEmailToBranch()
+#9 /home/tlouelea/domains/truckersafrica.com/public_html/app/Controllers/Order.php(395): App\Services\NotificationService->notifyOrderPlaced()
+#10 /home/tlouelea/domains/truckersafrica.com/public_html/system/CodeIgniter.php(941): App\Controllers\Order->completeOrder()
+#11 /home/tlouelea/domains/truckersafrica.com/public_html/system/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+#12 /home/tlouelea/domains/truckersafrica.com/public_html/system/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+#13 /home/tlouelea/domains/truckersafrica.com/public_html/index.php(83): CodeIgniter\CodeIgniter->run()
+#14 {main}
+ERROR - 2025-12-09 22:00:07 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2025-12-09 22:00:07 --> 220 da100.is.cc ESMTP Exim 4.98.2 Tue, 09 Dec 2025 14:59:56 -0500
+
+hello: 250-da100.is.cc Hello da100.is.cc [209.159.148.130]
+250-SIZE 52428800
+250-LIMITS MAILMAX=100 RCPTMAX=150
+250-8BITMIME
+250-PIPELINING
+250-PIPECONNECT
+250-STARTTLS
+250 HELP
+
+starttls: 220 TLS go ahead
+
+hello: 250-da100.is.cc Hello da100.is.cc [209.159.148.130]
+250-SIZE 52428800
+250-LIMITS MAILMAX=100 RCPTMAX=150
+250-8BITMIME
+250-PIPELINING
+250-PIPECONNECT
+250-AUTH PLAIN LOGIN
+250 HELP
+
+Failed to authenticate password. Error: 535 Incorrect authentication data
+
+Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+Failed to authenticate password. Error: 535 Incorrect authentication data
+
+Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+Failed to send AUTH LOGIN command. Error: 
+Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2025-12-09 22:00:08 --> Email: sendWithSmtp throwed ErrorException: fwrite(): SSL operation failed with code 1. OpenSSL Error messages:
+error:1409E10F:SSL routines:ssl3_write_bytes:bad length in /home/tlouelea/domains/truckersafrica.com/public_html/system/Email/Email.php:2076
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /home/tlouelea/domains/truckersafrica.com/public_html/system/Email/Email.php(2076): fwrite()
+#2 /home/tlouelea/domains/truckersafrica.com/public_html/system/Email/Email.php(2026): CodeIgniter\Email\Email->sendData()
+#3 /home/tlouelea/domains/truckersafrica.com/public_html/system/Email/Email.php(1810): CodeIgniter\Email\Email->SMTPAuthenticate()
+#4 /home/tlouelea/domains/truckersafrica.com/public_html/system/Email/Email.php(1695): CodeIgniter\Email\Email->sendWithSmtp()
+#5 /home/tlouelea/domains/truckersafrica.com/public_html/system/Email/Email.php(1587): CodeIgniter\Email\Email->spoolEmail()
+#6 /home/tlouelea/domains/truckersafrica.com/public_html/app/Services/NotificationService.php(468): CodeIgniter\Email\Email->send()
+#7 /home/tlouelea/domains/truckersafrica.com/public_html/app/Services/NotificationService.php(339): App\Services\NotificationService->sendEmail()
+#8 /home/tlouelea/domains/truckersafrica.com/public_html/app/Services/NotificationService.php(134): App\Services\NotificationService->sendOrderPlacedEmailToDriver()
+#9 /home/tlouelea/domains/truckersafrica.com/public_html/app/Controllers/Order.php(395): App\Services\NotificationService->notifyOrderPlaced()
+#10 /home/tlouelea/domains/truckersafrica.com/public_html/system/CodeIgniter.php(941): App\Controllers\Order->completeOrder()
+#11 /home/tlouelea/domains/truckersafrica.com/public_html/system/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+#12 /home/tlouelea/domains/truckersafrica.com/public_html/system/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+#13 /home/tlouelea/domains/truckersafrica.com/public_html/index.php(83): CodeIgniter\CodeIgniter->run()
+#14 {main}
+ERROR - 2025-12-09 22:00:08 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2025-12-09 22:00:08 --> 220 da100.is.cc ESMTP Exim 4.98.2 Tue, 09 Dec 2025 14:59:56 -0500
+
+hello: 250-da100.is.cc Hello da100.is.cc [209.159.148.130]
+250-SIZE 52428800
+250-LIMITS MAILMAX=100 RCPTMAX=150
+250-8BITMIME
+250-PIPELINING
+250-PIPECONNECT
+250-STARTTLS
+250 HELP
+
+starttls: 220 TLS go ahead
+
+hello: 250-da100.is.cc Hello da100.is.cc [209.159.148.130]
+250-SIZE 52428800
+250-LIMITS MAILMAX=100 RCPTMAX=150
+250-8BITMIME
+250-PIPELINING
+250-PIPECONNECT
+250-AUTH PLAIN LOGIN
+250 HELP
+
+Failed to authenticate password. Error: 535 Incorrect authentication data
+
+Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+Failed to authenticate password. Error: 535 Incorrect authentication data
+
+Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+Failed to send AUTH LOGIN command. Error: 
+Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2025-12-09 22:00:08 --> Failed to send order emails: Undefined array key "first_name"
+ERROR - 2025-12-09 22:00:08 --> Email: sendWithSmtp throwed ErrorException: fwrite(): SSL operation failed with code 1. OpenSSL Error messages:
+error:1409E10F:SSL routines:ssl3_write_bytes:bad length in /home/tlouelea/domains/truckersafrica.com/public_html/system/Email/Email.php:2076
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /home/tlouelea/domains/truckersafrica.com/public_html/system/Email/Email.php(2076): fwrite()
+#2 /home/tlouelea/domains/truckersafrica.com/public_html/system/Email/Email.php(2026): CodeIgniter\Email\Email->sendData()
+#3 /home/tlouelea/domains/truckersafrica.com/public_html/system/Email/Email.php(1810): CodeIgniter\Email\Email->SMTPAuthenticate()
+#4 /home/tlouelea/domains/truckersafrica.com/public_html/system/Email/Email.php(1695): CodeIgniter\Email\Email->sendWithSmtp()
+#5 /home/tlouelea/domains/truckersafrica.com/public_html/system/Email/Email.php(1587): CodeIgniter\Email\Email->spoolEmail()
+#6 /home/tlouelea/domains/truckersafrica.com/public_html/app/Services/NotificationService.php(468): CodeIgniter\Email\Email->send()
+#7 /home/tlouelea/domains/truckersafrica.com/public_html/app/Services/NotificationService.php(362): App\Services\NotificationService->sendEmail()
+#8 /home/tlouelea/domains/truckersafrica.com/public_html/app/Services/NotificationService.php(98): App\Services\NotificationService->sendOrderPlacedEmailToBranch()
+#9 /home/tlouelea/domains/truckersafrica.com/public_html/app/Controllers/Order.php(395): App\Services\NotificationService->notifyOrderPlaced()
+#10 /home/tlouelea/domains/truckersafrica.com/public_html/system/CodeIgniter.php(941): App\Controllers\Order->completeOrder()
+#11 /home/tlouelea/domains/truckersafrica.com/public_html/system/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+#12 /home/tlouelea/domains/truckersafrica.com/public_html/system/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+#13 /home/tlouelea/domains/truckersafrica.com/public_html/index.php(83): CodeIgniter\CodeIgniter->run()
+#14 {main}
+ERROR - 2025-12-09 22:00:08 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2025-12-09 22:00:08 --> 220 da100.is.cc ESMTP Exim 4.98.2 Tue, 09 Dec 2025 14:59:56 -0500
+
+hello: 250-da100.is.cc Hello da100.is.cc [209.159.148.130]
+250-SIZE 52428800
+250-LIMITS MAILMAX=100 RCPTMAX=150
+250-8BITMIME
+250-PIPELINING
+250-PIPECONNECT
+250-STARTTLS
+250 HELP
+
+starttls: 220 TLS go ahead
+
+hello: 250-da100.is.cc Hello da100.is.cc [209.159.148.130]
+250-SIZE 52428800
+250-LIMITS MAILMAX=100 RCPTMAX=150
+250-8BITMIME
+250-PIPELINING
+250-PIPECONNECT
+250-AUTH PLAIN LOGIN
+250 HELP
+
+Failed to authenticate password. Error: 535 Incorrect authentication data
+
+Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+Failed to authenticate password. Error: 535 Incorrect authentication data
+
+Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+Failed to send AUTH LOGIN command. Error: 
+Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2025-12-09 22:00:08 --> Email: sendWithSmtp throwed ErrorException: fwrite(): SSL operation failed with code 1. OpenSSL Error messages:
+error:1409E10F:SSL routines:ssl3_write_bytes:bad length in /home/tlouelea/domains/truckersafrica.com/public_html/system/Email/Email.php:2076
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /home/tlouelea/domains/truckersafrica.com/public_html/system/Email/Email.php(2076): fwrite()
+#2 /home/tlouelea/domains/truckersafrica.com/public_html/system/Email/Email.php(2026): CodeIgniter\Email\Email->sendData()
+#3 /home/tlouelea/domains/truckersafrica.com/public_html/system/Email/Email.php(1810): CodeIgniter\Email\Email->SMTPAuthenticate()
+#4 /home/tlouelea/domains/truckersafrica.com/public_html/system/Email/Email.php(1695): CodeIgniter\Email\Email->sendWithSmtp()
+#5 /home/tlouelea/domains/truckersafrica.com/public_html/system/Email/Email.php(1587): CodeIgniter\Email\Email->spoolEmail()
+#6 /home/tlouelea/domains/truckersafrica.com/public_html/app/Services/NotificationService.php(468): CodeIgniter\Email\Email->send()
+#7 /home/tlouelea/domains/truckersafrica.com/public_html/app/Services/NotificationService.php(339): App\Services\NotificationService->sendEmail()
+#8 /home/tlouelea/domains/truckersafrica.com/public_html/app/Services/NotificationService.php(134): App\Services\NotificationService->sendOrderPlacedEmailToDriver()
+#9 /home/tlouelea/domains/truckersafrica.com/public_html/app/Controllers/Order.php(395): App\Services\NotificationService->notifyOrderPlaced()
+#10 /home/tlouelea/domains/truckersafrica.com/public_html/system/CodeIgniter.php(941): App\Controllers\Order->completeOrder()
+#11 /home/tlouelea/domains/truckersafrica.com/public_html/system/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+#12 /home/tlouelea/domains/truckersafrica.com/public_html/system/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+#13 /home/tlouelea/domains/truckersafrica.com/public_html/index.php(83): CodeIgniter\CodeIgniter->run()
+#14 {main}
+ERROR - 2025-12-09 22:00:08 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2025-12-09 22:00:08 --> 220 da100.is.cc ESMTP Exim 4.98.2 Tue, 09 Dec 2025 14:59:56 -0500
+
+hello: 250-da100.is.cc Hello da100.is.cc [209.159.148.130]
+250-SIZE 52428800
+250-LIMITS MAILMAX=100 RCPTMAX=150
+250-8BITMIME
+250-PIPELINING
+250-PIPECONNECT
+250-STARTTLS
+250 HELP
+
+starttls: 220 TLS go ahead
+
+hello: 250-da100.is.cc Hello da100.is.cc [209.159.148.130]
+250-SIZE 52428800
+250-LIMITS MAILMAX=100 RCPTMAX=150
+250-8BITMIME
+250-PIPELINING
+250-PIPECONNECT
+250-AUTH PLAIN LOGIN
+250 HELP
+
+Failed to authenticate password. Error: 535 Incorrect authentication data
+
+Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+Failed to authenticate password. Error: 535 Incorrect authentication data
+
+Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+Failed to send AUTH LOGIN command. Error: 
+Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2025-12-09 22:00:08 --> Failed to send order emails: Undefined array key "first_name"
+ERROR - 2025-12-09 22:00:08 --> Email: sendWithSmtp throwed ErrorException: fwrite(): SSL operation failed with code 1. OpenSSL Error messages:
+error:1409E10F:SSL routines:ssl3_write_bytes:bad length in /home/tlouelea/domains/truckersafrica.com/public_html/system/Email/Email.php:2076
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /home/tlouelea/domains/truckersafrica.com/public_html/system/Email/Email.php(2076): fwrite()
+#2 /home/tlouelea/domains/truckersafrica.com/public_html/system/Email/Email.php(1985): CodeIgniter\Email\Email->sendData()
+#3 /home/tlouelea/domains/truckersafrica.com/public_html/system/Email/Email.php(2220): CodeIgniter\Email\Email->sendCommand()
+#4 [internal function]: CodeIgniter\Email\Email->__destruct()
+#5 {main}
+ERROR - 2025-12-09 22:34:27 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2025-12-09 22:34:27 --> 220 da100.is.cc ESMTP Exim 4.98.2 Tue, 09 Dec 2025 15:34:27 -0500
+
+hello: 250-da100.is.cc Hello da100.is.cc [209.159.148.130]
+250-SIZE 52428800
+250-LIMITS MAILMAX=100 RCPTMAX=150
+250-8BITMIME
+250-PIPELINING
+250-PIPECONNECT
+250-STARTTLS
+250 HELP
+
+starttls: 220 TLS go ahead
+
+hello: 250-da100.is.cc Hello da100.is.cc [209.159.148.130]
+250-SIZE 52428800
+250-LIMITS MAILMAX=100 RCPTMAX=150
+250-8BITMIME
+250-PIPELINING
+250-PIPECONNECT
+250-AUTH PLAIN LOGIN
+250 HELP
+
+Failed to authenticate password. Error: 535 Incorrect authentication data
+
+ERROR - 2025-12-09 22:35:18 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2025-12-09 22:35:18 --> 220 da100.is.cc ESMTP Exim 4.98.2 Tue, 09 Dec 2025 15:35:18 -0500
+
+hello: 250-da100.is.cc Hello da100.is.cc [209.159.148.130]
+250-SIZE 52428800
+250-LIMITS MAILMAX=100 RCPTMAX=150
+250-8BITMIME
+250-PIPELINING
+250-PIPECONNECT
+250-STARTTLS
+250 HELP
+
+starttls: 220 TLS go ahead
+
+hello: 250-da100.is.cc Hello da100.is.cc [209.159.148.130]
+250-SIZE 52428800
+250-LIMITS MAILMAX=100 RCPTMAX=150
+250-8BITMIME
+250-PIPELINING
+250-PIPECONNECT
+250-AUTH PLAIN LOGIN
+250 HELP
+
+Failed to authenticate password. Error: 535 Incorrect authentication data
+
+ERROR - 2025-12-09 22:38:12 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2025-12-09 22:38:12 --> 220 da100.is.cc ESMTP Exim 4.98.2 Tue, 09 Dec 2025 15:38:12 -0500
+
+hello: 250-da100.is.cc Hello da100.is.cc [209.159.148.130]
+250-SIZE 52428800
+250-LIMITS MAILMAX=100 RCPTMAX=150
+250-8BITMIME
+250-PIPELINING
+250-PIPECONNECT
+250-STARTTLS
+250 HELP
+
+starttls: 220 TLS go ahead
+
+hello: 250-da100.is.cc Hello da100.is.cc [209.159.148.130]
+250-SIZE 52428800
+250-LIMITS MAILMAX=100 RCPTMAX=150
+250-8BITMIME
+250-PIPELINING
+250-PIPECONNECT
+250-AUTH PLAIN LOGIN
+250 HELP
+
+Failed to authenticate password. Error: 535 Incorrect authentication data
+
+ERROR - 2025-12-09 22:38:13 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2025-12-09 22:38:13 --> 220 da100.is.cc ESMTP Exim 4.98.2 Tue, 09 Dec 2025 15:38:12 -0500
+
+hello: 250-da100.is.cc Hello da100.is.cc [209.159.148.130]
+250-SIZE 52428800
+250-LIMITS MAILMAX=100 RCPTMAX=150
+250-8BITMIME
+250-PIPELINING
+250-PIPECONNECT
+250-STARTTLS
+250 HELP
+
+starttls: 220 TLS go ahead
+
+hello: 250-da100.is.cc Hello da100.is.cc [209.159.148.130]
+250-SIZE 52428800
+250-LIMITS MAILMAX=100 RCPTMAX=150
+250-8BITMIME
+250-PIPELINING
+250-PIPECONNECT
+250-AUTH PLAIN LOGIN
+250 HELP
+
+Failed to authenticate password. Error: 535 Incorrect authentication data
+
+Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+Failed to authenticate password. Error: 535 Incorrect authentication data
+
+ERROR - 2025-12-09 22:38:13 --> Failed to send branch listing approval email: 220 da100.is.cc ESMTP Exim 4.98.2 Tue, 09 Dec 2025 15:38:12 -0500
+<br><pre>hello: 250-da100.is.cc Hello da100.is.cc [209.159.148.130]
+250-SIZE 52428800
+250-LIMITS MAILMAX=100 RCPTMAX=150
+250-8BITMIME
+250-PIPELINING
+250-PIPECONNECT
+250-STARTTLS
+250 HELP
+</pre><pre>starttls: 220 TLS go ahead
+</pre><pre>hello: 250-da100.is.cc Hello da100.is.cc [209.159.148.130]
+250-SIZE 52428800
+250-LIMITS MAILMAX=100 RCPTMAX=150
+250-8BITMIME
+250-PIPELINING
+250-PIPECONNECT
+250-AUTH PLAIN LOGIN
+250 HELP
+</pre>Failed to authenticate password. Error: 535 Incorrect authentication data
+<br>Unable to send email using SMTP. Your server might not be configured to send mail using this method.<br>Failed to authenticate password. Error: 535 Incorrect authentication data
+<br>Unable to send email using SMTP. Your server might not be configured to send mail using this method.<br><pre>Date: Tue, 9 Dec 2025 22:38:12 +0200
+To: merchant1000@truckersafrica.com
+Subject: =?UTF-8?Q?Listing=20Approved=20-=20Truck=20Towing=20-=20Truckers=20Afric?= =?UTF-8?Q?a?=
+From: &quot;Truckers Africa&quot; &lt;admin@truckersafrica.com&gt;
+Return-Path: &lt;admin@truckersafrica.com&gt;
+Reply-To: &lt;admin@truckersafrica.com&gt;
+User-Agent: CodeIgniter
+X-Sender: admin@truckersafrica.com
+X-Mailer: CodeIgniter
+X-Priority: 3 (Normal)
+Message-ID: &lt;693888b53c80c3.95215247@truckersafrica.com&gt;
+Mime-Version: 1.0
+
+</pre>
+ERROR - 2025-12-09 22:44:25 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2025-12-09 22:44:25 --> 220 da100.is.cc ESMTP Exim 4.98.2 Tue, 09 Dec 2025 15:44:25 -0500
+
+hello: 250-da100.is.cc Hello da100.is.cc [209.159.148.130]
+250-SIZE 52428800
+250-LIMITS MAILMAX=100 RCPTMAX=150
+250-8BITMIME
+250-PIPELINING
+250-PIPECONNECT
+250-STARTTLS
+250 HELP
+
+starttls: 220 TLS go ahead
+
+hello: 250-da100.is.cc Hello da100.is.cc [209.159.148.130]
+250-SIZE 52428800
+250-LIMITS MAILMAX=100 RCPTMAX=150
+250-8BITMIME
+250-PIPELINING
+250-PIPECONNECT
+250-AUTH PLAIN LOGIN
+250 HELP
+
+Failed to authenticate password. Error: 535 Incorrect authentication data
+
+ERROR - 2025-12-09 22:44:26 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2025-12-09 22:44:26 --> 220 da100.is.cc ESMTP Exim 4.98.2 Tue, 09 Dec 2025 15:44:25 -0500
+
+hello: 250-da100.is.cc Hello da100.is.cc [209.159.148.130]
+250-SIZE 52428800
+250-LIMITS MAILMAX=100 RCPTMAX=150
+250-8BITMIME
+250-PIPELINING
+250-PIPECONNECT
+250-STARTTLS
+250 HELP
+
+starttls: 220 TLS go ahead
+
+hello: 250-da100.is.cc Hello da100.is.cc [209.159.148.130]
+250-SIZE 52428800
+250-LIMITS MAILMAX=100 RCPTMAX=150
+250-8BITMIME
+250-PIPELINING
+250-PIPECONNECT
+250-AUTH PLAIN LOGIN
+250 HELP
+
+Failed to authenticate password. Error: 535 Incorrect authentication data
+
+Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+Failed to authenticate password. Error: 535 Incorrect authentication data
+
+ERROR - 2025-12-09 22:44:26 --> Failed to send branch listing approval email: 220 da100.is.cc ESMTP Exim 4.98.2 Tue, 09 Dec 2025 15:44:25 -0500
+<br><pre>hello: 250-da100.is.cc Hello da100.is.cc [209.159.148.130]
+250-SIZE 52428800
+250-LIMITS MAILMAX=100 RCPTMAX=150
+250-8BITMIME
+250-PIPELINING
+250-PIPECONNECT
+250-STARTTLS
+250 HELP
+</pre><pre>starttls: 220 TLS go ahead
+</pre><pre>hello: 250-da100.is.cc Hello da100.is.cc [209.159.148.130]
+250-SIZE 52428800
+250-LIMITS MAILMAX=100 RCPTMAX=150
+250-8BITMIME
+250-PIPELINING
+250-PIPECONNECT
+250-AUTH PLAIN LOGIN
+250 HELP
+</pre>Failed to authenticate password. Error: 535 Incorrect authentication data
+<br>Unable to send email using SMTP. Your server might not be configured to send mail using this method.<br>Failed to authenticate password. Error: 535 Incorrect authentication data
+<br>Unable to send email using SMTP. Your server might not be configured to send mail using this method.<br><pre>Date: Tue, 9 Dec 2025 22:44:25 +0200
+To: asante.dgl@gmail.com
+Subject: =?UTF-8?Q?Listing=20Approved=20-=20Roadside=20Assistance=2024/7=20-=20Tr?= =?UTF-8?Q?uckers=20Africa?=
+From: &quot;Truckers Africa&quot; &lt;admin@truckersafrica.com&gt;
+Return-Path: &lt;admin@truckersafrica.com&gt;
+Reply-To: &lt;admin@truckersafrica.com&gt;
+User-Agent: CodeIgniter
+X-Sender: admin@truckersafrica.com
+X-Mailer: CodeIgniter
+X-Priority: 3 (Normal)
+Message-ID: &lt;69388a2a4ed8e4.26361858@truckersafrica.com&gt;
+Mime-Version: 1.0
+
+</pre>
+ERROR - 2025-12-09 22:44:30 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2025-12-09 22:44:30 --> 220 da100.is.cc ESMTP Exim 4.98.2 Tue, 09 Dec 2025 15:44:30 -0500
+
+hello: 250-da100.is.cc Hello da100.is.cc [209.159.148.130]
+250-SIZE 52428800
+250-LIMITS MAILMAX=100 RCPTMAX=150
+250-8BITMIME
+250-PIPELINING
+250-PIPECONNECT
+250-STARTTLS
+250 HELP
+
+starttls: 220 TLS go ahead
+
+hello: 250-da100.is.cc Hello da100.is.cc [209.159.148.130]
+250-SIZE 52428800
+250-LIMITS MAILMAX=100 RCPTMAX=150
+250-8BITMIME
+250-PIPELINING
+250-PIPECONNECT
+250-AUTH PLAIN LOGIN
+250 HELP
+
+Failed to authenticate password. Error: 535 Incorrect authentication data
+
+ERROR - 2025-12-09 22:44:30 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2025-12-09 22:44:30 --> 220 da100.is.cc ESMTP Exim 4.98.2 Tue, 09 Dec 2025 15:44:30 -0500
+
+hello: 250-da100.is.cc Hello da100.is.cc [209.159.148.130]
+250-SIZE 52428800
+250-LIMITS MAILMAX=100 RCPTMAX=150
+250-8BITMIME
+250-PIPELINING
+250-PIPECONNECT
+250-STARTTLS
+250 HELP
+
+starttls: 220 TLS go ahead
+
+hello: 250-da100.is.cc Hello da100.is.cc [209.159.148.130]
+250-SIZE 52428800
+250-LIMITS MAILMAX=100 RCPTMAX=150
+250-8BITMIME
+250-PIPELINING
+250-PIPECONNECT
+250-AUTH PLAIN LOGIN
+250 HELP
+
+Failed to authenticate password. Error: 535 Incorrect authentication data
+
+Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+Failed to authenticate password. Error: 535 Incorrect authentication data
+
+ERROR - 2025-12-09 22:44:30 --> Failed to send branch listing approval email: 220 da100.is.cc ESMTP Exim 4.98.2 Tue, 09 Dec 2025 15:44:30 -0500
+<br><pre>hello: 250-da100.is.cc Hello da100.is.cc [209.159.148.130]
+250-SIZE 52428800
+250-LIMITS MAILMAX=100 RCPTMAX=150
+250-8BITMIME
+250-PIPELINING
+250-PIPECONNECT
+250-STARTTLS
+250 HELP
+</pre><pre>starttls: 220 TLS go ahead
+</pre><pre>hello: 250-da100.is.cc Hello da100.is.cc [209.159.148.130]
+250-SIZE 52428800
+250-LIMITS MAILMAX=100 RCPTMAX=150
+250-8BITMIME
+250-PIPELINING
+250-PIPECONNECT
+250-AUTH PLAIN LOGIN
+250 HELP
+</pre>Failed to authenticate password. Error: 535 Incorrect authentication data
+<br>Unable to send email using SMTP. Your server might not be configured to send mail using this method.<br>Failed to authenticate password. Error: 535 Incorrect authentication data
+<br>Unable to send email using SMTP. Your server might not be configured to send mail using this method.<br><pre>Date: Tue, 9 Dec 2025 22:44:30 +0200
+To: merchant1000@truckersafrica.com
+Subject: =?UTF-8?Q?Listing=20Approved=20-=20Truck=20Towing=20-=20Truckers=20Afric?= =?UTF-8?Q?a?=
+From: &quot;Truckers Africa&quot; &lt;admin@truckersafrica.com&gt;
+Return-Path: &lt;admin@truckersafrica.com&gt;
+Reply-To: &lt;admin@truckersafrica.com&gt;
+User-Agent: CodeIgniter
+X-Sender: admin@truckersafrica.com
+X-Mailer: CodeIgniter
+X-Priority: 3 (Normal)
+Message-ID: &lt;69388a2e938292.29934864@truckersafrica.com&gt;
+Mime-Version: 1.0
+
+</pre>

@@ -1,0 +1,8 @@
+ERROR - 2025-11-25 17:26:51 --> Failed to send order emails: Undefined array key "first_name"
+ERROR - 2025-11-25 17:30:54 --> SMS Error: Resolving timed out after 10015 milliseconds
+ERROR - 2025-11-25 17:30:56 --> Failed to send order emails: Undefined array key "first_name"
+ERROR - 2025-11-25 17:33:59 --> Failed to send order emails: Undefined array key "first_name"
+ERROR - 2025-11-25 20:25:24 --> Failed to send order emails: Undefined array key "first_name"
+ERROR - 2025-11-25 20:48:47 --> Failed to send order emails: Undefined array key "first_name"
+ERROR - 2025-11-25 20:48:52 --> Failed to send order emails: Undefined array key "first_name"
+ERROR - 2025-11-25 20:51:17 --> Failed to send order status notifications: Undefined array key "first_name"

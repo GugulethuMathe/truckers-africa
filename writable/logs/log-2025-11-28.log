@@ -1,0 +1,7 @@
+ERROR - 2025-11-28 19:29:35 --> Failed to send order emails: Undefined array key "first_name"
+ERROR - 2025-11-28 19:29:36 --> Failed to send order emails: Undefined array key "first_name"
+ERROR - 2025-11-28 20:55:22 --> Failed to send order emails: Undefined array key "first_name"
+ERROR - 2025-11-28 20:55:23 --> Failed to send order emails: Undefined array key "first_name"
+ERROR - 2025-11-28 20:55:23 --> Failed to send order emails: Undefined array key "first_name"
+ERROR - 2025-11-28 21:19:48 --> Failed to send order status email: Undefined array key "first_name"
+ERROR - 2025-11-28 21:19:54 --> Failed to send order status email: Undefined array key "first_name"

@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Test Truckers Africa API</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #f5f5f5;
+        }
+        .container {
+            background: white;
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+        }
+        button {
+            background: #007bff;
+            color: white;
+            border: none;
+            padding: 12px 24px;
+            border-radius: 5px;
+            cursor: pointer;
+            margin: 10px 5px;
+            font-size: 16px;
+        }
+        button:hover {
+            background: #0056b3;
+        }
+        .result {
+            background: #f8f9fa;
+            border: 1px solid #dee2e6;
+            border-radius: 5px;
+            padding: 15px;
+            margin: 15px 0;
+            font-family: monospace;
+            white-space: pre-wrap;
+            max-height: 300px;
+            overflow-y: auto;
+        }
+        .success {
+            border-color: #28a745;
+            background-color: #d4edda;
+        }
+        .error {
+            border-color: #dc3545;
+            background-color: #f8d7da;
+        }
+        h1 {
+            color: #333;
+            text-align: center;
+        }
+        .info {
+            background: #e7f3ff;
+            border: 1px solid #b3d9ff;
+            padding: 15px;
+            border-radius: 5px;
+            margin: 20px 0;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>🚛 Truckers Africa API Test</h1>
+        
+        <div class="info">
+            <h3>📋 Test Credentials:</h3>
+            <p><strong>Email:</strong> test@example.com</p>
+            <p><strong>Password:</strong> password123</p>
+        </div>
+
+        <h3>🔐 Authentication Tests</h3>
+        <button onclick="testLogin()">Test Driver Login</button>
+        <button onclick="testProfile()">Test Get Profile (needs token)</button>
+        <button onclick="testRefresh()">Test Refresh Token</button>
+        
+        <h3>🛠️ Service Tests</h3>
+        <button onclick="testNearbyServices()">Test Nearby Services</button>
+        <button onclick="testServiceCategories()">Test Service Categories</button>
+        
+        <div id="result" class="result"></div>
+    </div>
+
+    <script>
+        let accessToken = '';
+        let refreshToken = '';
+
+        function showResult(data, isSuccess = true) {
+            const resultDiv = document.getElementById('result');
+            resultDiv.className = 'result ' + (isSuccess ? 'success' : 'error');
+            resultDiv.textContent = JSON.stringify(data, null, 2);
+        }
+
+        async function testLogin() {
+            try {
+                const response = await fetch('/truckers-africa/api/driver/login', {
+                    method: 'POST',
+                    headers: {
+                        'Content-Type': 'application/json',
+                    },
+                    body: JSON.stringify({
+                        email: 'test@example.com',
+                        password: 'password123'
+                    })
+                });
+
+                const data = await response.json();
+                
+                if (data.success) {
+                    accessToken = data.data.access_token;
+                    refreshToken = data.data.refresh_token;
+                    showResult({
+                        message: '✅ Login successful!',
+                        user: data.data.user,
+                        token_info: {
+                            expires_in: data.data.expires_in + ' seconds (30 days)',
+                            token_type: data.data.token_type
+                        }
+                    }, true);
+                } else {
+                    showResult(data, false);
+                }
+            } catch (error) {
+                showResult({ error: error.message }, false);
+            }
+        }
+
+        async function testProfile() {
+            if (!accessToken) {
+                showResult({ error: 'Please login first to get access token' }, false);
+                return;
+            }
+
+            try {
+                const response = await fetch('/truckers-africa/api/driver/profile', {
+                    method: 'GET',
+                    headers: {
+                        'Authorization': 'Bearer ' + accessToken,
+                        'Content-Type': 'application/json',
+                    }
+                });
+
+                const data = await response.json();
+                showResult(data, data.success);
+            } catch (error) {
+                showResult({ error: error.message }, false);
+            }
+        }
+
+        async function testRefresh() {
+            if (!refreshToken) {
+                showResult({ error: 'Please login first to get refresh token' }, false);
+                return;
+            }
+
+            try {
+                const response = await fetch('/truckers-africa/api/auth/refresh', {
+                    method: 'POST',
+                    headers: {
+                        'Content-Type': 'application/json',
+                    },
+                    body: JSON.stringify({
+                        refresh_token: refreshToken
+                    })
+                });
+
+                const data = await response.json();
+                
+                if (data.success) {
+                    accessToken = data.data.access_token;
+                    refreshToken = data.data.refresh_token;
+                    showResult({ message: '✅ Token refreshed successfully!', data: data }, true);
+                } else {
+                    showResult(data, false);
+                }
+            } catch (error) {
+                showResult({ error: error.message }, false);
+            }
+        }
+
+        async function testNearbyServices() {
+            try {
+                // Test with Johannesburg coordinates
+                const response = await fetch('/truckers-africa/api/services/nearby?latitude=-26.2041&longitude=28.0473&radius=50&limit=5', {
+                    method: 'GET',
+                    headers: {
+                        'Content-Type': 'application/json',
+                    }
+                });
+
+                const data = await response.json();
+                showResult(data, data.success);
+            } catch (error) {
+                showResult({ error: error.message }, false);
+            }
+        }
+
+        async function testServiceCategories() {
+            try {
+                const response = await fetch('/truckers-africa/api/services/categories', {
+                    method: 'GET',
+                    headers: {
+                        'Content-Type': 'application/json',
+                    }
+                });
+
+                const data = await response.json();
+                showResult(data, data.success);
+            } catch (error) {
+                showResult({ error: error.message }, false);
+            }
+        }
+    </script>
+</body>
+</html>

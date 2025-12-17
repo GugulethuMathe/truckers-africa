@@ -1,0 +1,25 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(cp:*)",
+      "Bash(mysql:*)",
+      "Bash(php:*)",
+      "Bash(if [ -d \"uploads/driver_profiles\" ])",
+      "Bash(then echo \"Directory exists\")",
+      "Bash(else echo \"Directory does NOT exist\")",
+      "Bash(fi)",
+      "Bash(if [ -f \"truckers_africa_database_clean.sql\" ])",
+      "Bash(then echo \"File exists\")",
+      "Bash(else echo \"File does NOT exist\")",
+      "Bash(if [ -f \"uploads/listings/1763639121_97b750ac8e8a54a259ee.png\" ])",
+      "Bash(then echo \"✓ Main image exists\")",
+      "Bash(else echo \"✗ Main image NOT found\")",
+      "Bash(if [ -f \"uploads/listings/1763639121_501b8c97dde5b1194908.png\" ])",
+      "Bash(then echo \"✓ Gallery image exists\")",
+      "Bash(else echo \"✗ Gallery image NOT found\")",
+      "Bash(if [ -f \"app/Models/EmailCampaignModel.php\" ])"
+    ],
+    "deny": [],
+    "ask": []
+  }
+}

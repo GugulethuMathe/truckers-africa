@@ -1,0 +1,69 @@
+ERROR - 2025-12-06 10:41:56 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2025-12-06 10:41:56 --> 220 da100.is.cc ESMTP Exim 4.98.2 Sat, 06 Dec 2025 03:41:56 -0500
+
+hello: 250-da100.is.cc Hello da100.is.cc [209.159.148.130]
+250-SIZE 52428800
+250-LIMITS MAILMAX=100 RCPTMAX=150
+250-8BITMIME
+250-PIPELINING
+250-PIPECONNECT
+250-STARTTLS
+250 HELP
+
+starttls: 220 TLS go ahead
+
+hello: 250-da100.is.cc Hello da100.is.cc [209.159.148.130]
+250-SIZE 52428800
+250-LIMITS MAILMAX=100 RCPTMAX=150
+250-8BITMIME
+250-PIPELINING
+250-PIPECONNECT
+250-AUTH PLAIN LOGIN
+250 HELP
+
+from: 250 OK
+
+to: 550 No such recipient here
+
+The following SMTP error was encountered: 550 No such recipient here
+
+reset: 250 Reset OK
+
+ERROR - 2025-12-06 10:41:56 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2025-12-06 10:41:56 --> from: 250 OK
+
+to: 550 No such recipient here
+
+The following SMTP error was encountered: 550 No such recipient here
+
+reset: 250 Reset OK
+
+ERROR - 2025-12-06 10:41:56 --> Failed to send welcome email: <pre>from: 250 OK
+</pre><pre>to: 550 No such recipient here
+</pre>The following SMTP error was encountered: 550 No such recipient here
+<br><pre>reset: 250 Reset OK
+</pre>Unable to send email using SMTP. Your server might not be configured to send mail using this method.<br><pre>Date: Sat, 6 Dec 2025 10:41:56 +0200
+From: &quot;Truckers Africa&quot; &lt;admin@truckersafrica.com&gt;
+Return-Path: &lt;admin@truckersafrica.com&gt;
+To: trucker@truckersafrica.com
+Subject: =?UTF-8?Q?Welcome=20to=20Truckers=20Africa!?=
+Reply-To: &lt;admin@truckersafrica.com&gt;
+User-Agent: CodeIgniter
+X-Sender: admin@truckersafrica.com
+X-Mailer: CodeIgniter
+X-Priority: 3 (Normal)
+Message-ID: &lt;6933ec54d3bc92.69615754@truckersafrica.com&gt;
+Mime-Version: 1.0
+
+</pre>
+CRITICAL - 2025-12-06 13:43:58 --> ErrorException: Undefined variable $planCurrencySymbol
+in APPPATH/Views/admin/merchants/view.php on line 493.
+ 1 APPPATH/Views/admin/merchants/view.php(493): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(228): include('/home/tlouelea/domains/truckersafrica.com/public_html/app/Views/admin/merchants/view.php')
+ 3 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1178): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Admin.php(1061): view()
+ 6 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Admin->viewMerchant()
+ 7 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(83): CodeIgniter\CodeIgniter->run()

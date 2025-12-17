@@ -1,0 +1,327 @@
+/* General Body & App Styles */
+body {
+    font-family: 'Inter', sans-serif;
+    background-color: #FFFFFF; /* White background for the whole page */
+    margin: 0;
+    padding: 0;
+    color: #1a202c; /* Dark text color */
+    overflow-x: hidden;
+}
+
+.dashboard-container {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    width: 100%;
+    max-width: 480px; /* Mobile-first design */
+    margin: 0 auto;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    background-color: #f7f8fa;
+    position: relative;
+    overflow: hidden;
+}
+
+.main-content {
+    flex: 1;
+    overflow-y: auto;
+    padding-bottom: 80px; /* Space for bottom nav */
+    display: flex;
+    flex-direction: column;
+}
+
+/* Search Bar */
+.search-container {
+    display: flex;
+    padding: 16px;
+    background-color: #fff;
+    border-bottom: 1px solid #e2e8f0;
+}
+
+.search-bar {
+    flex-grow: 1;
+    display: flex;
+    align-items: center;
+    background-color: #f7f8fa;
+    border-radius: 8px;
+    padding: 0 12px;
+    border: 1px solid #e2e8f0;
+}
+
+.search-bar i {
+    color: #718096;
+    margin-right: 8px;
+}
+
+.search-bar input {
+    width: 100%;
+    border: none;
+    background: transparent;
+    padding: 12px 0;
+    font-size: 14px;
+    outline: none;
+}
+
+.search-button {
+    margin-left: 12px;
+    padding: 0 24px;
+    background-color: #2f855a; /* Green */
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background-color 0.2s;
+}
+
+.search-button:hover {
+    background-color: #276749;
+}
+
+/* Keyframe Animations */
+@keyframes pulse-marker {
+    0% {
+        transform: scale(1);
+        opacity: 0.7;
+    }
+    70% {
+        transform: scale(1.8);
+        opacity: 0;
+    }
+    100% {
+        transform: scale(1);
+        opacity: 0;
+    }
+}
+
+@keyframes slide-up {
+    from {
+        transform: translateY(100%);
+    }
+    to {
+        transform: translateY(0);
+    }
+}
+
+@keyframes toast-enter {
+    from {
+        opacity: 0;
+        transform: translateY(-20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+/* Custom Component Styles */
+.pulse-marker {
+    animation: pulse-marker 2s infinite;
+}
+
+/* Bottom sheet for merchants */
+.slide-up {
+    transform: translateY(calc(100% - 80px)); /* Start mostly hidden, showing handle */
+    transition: transform 0.4s ease-in-out;
+}
+
+.slide-up.active {
+    transform: translateY(0);
+}
+
+/* Route planning modal */
+.slide-up-modal {
+    animation: slide-up 0.5s ease-in-out forwards;
+}
+
+/* Notification Toast */
+.toast-enter {
+    animation: toast-enter 0.3s ease-out forwards;
+}
+
+/* Map Container */
+.map-container {
+    height: 300px;
+    background-color: #e6fffa; /* Light green placeholder */
+    position: relative;
+}
+
+.map-placeholder {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    color: #2c7a7b;
+    font-weight: 600;
+}
+
+/* Services Sheet */
+.services-sheet {
+    background-color: #fff;
+    border-top-left-radius: 24px;
+    border-top-right-radius: 24px;
+    padding: 16px;
+    margin-top: -24px; /* Overlap the map */
+    position: relative;
+    flex-grow: 1;
+    box-shadow: 0 -4px 12px rgba(0,0,0,0.05);
+}
+
+.handle {
+    width: 40px;
+    height: 5px;
+    background-color: #cbd5e0;
+    border-radius: 2.5px;
+    margin: 0 auto 16px;
+}
+
+.service-section {
+    margin-bottom: 24px;
+}
+
+.section-title {
+    font-size: 18px;
+    font-weight: 700;
+    margin-bottom: 16px;
+}
+
+.service-cards-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+    gap: 16px;
+}
+
+/* Service Card */
+.service-card {
+    background-color: #fff;
+    border: 1px solid #e2e8f0;
+    border-radius: 12px;
+    padding: 16px;
+    transition: box-shadow 0.2s;
+}
+
+.service-card:hover {
+    box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+}
+
+.card-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 4px;
+}
+
+.card-title {
+    font-weight: 600;
+    font-size: 16px;
+}
+
+.status-open {
+    color: #38a169; /* Green */
+    font-size: 12px;
+    font-weight: 500;
+}
+
+.card-subtitle {
+    font-size: 14px;
+    color: #718096;
+    margin-bottom: 12px;
+}
+
+.card-footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 12px;
+    color: #4a5568;
+}
+
+.ratings {
+    display: flex;
+    align-items: center;
+}
+
+.ratings i {
+    color: #f6e05e; /* Yellow */
+    font-size: 16px;
+}
+
+.ratings span {
+    margin-left: 6px;
+    color: #718096;
+}
+
+.distance {
+    font-weight: 500;
+}
+
+/* Bottom Navigation */
+.bottom-nav {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    max-width: 480px; /* Match container width */
+    margin: 0 auto;
+    height: 70px;
+    background-color: #fff;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-top: 1px solid #e2e8f0;
+    box-shadow: 0 -2px 5px rgba(0,0,0,0.05);
+}
+
+.nav-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-decoration: none;
+    color: #718096;
+    font-size: 12px;
+    padding: 8px 0;
+    flex-grow: 1;
+}
+
+.nav-item i {
+    font-size: 24px;
+    margin-bottom: 4px;
+}
+
+.nav-item.active {
+    color: #2f855a; /* Green */
+}
+
+.nav-item.active span {
+    font-weight: 600;
+}
+
+/* Mobile button sizing tweaks for driver panel */
+@media (max-width: 480px) {
+  /* General buttons and common button-like anchors */
+  button,
+  .btn-primary,
+  .btn-secondary,
+  .category-filter,
+  .search-button,
+  #searchBtn,
+  #categoryFilterToggle,
+  .remove-stop-btn,
+  a[class*="rounded"][class*="px-"][class*="py-"] {
+    padding: 6px 10px !important;
+    font-size: 12px !important;
+    line-height: 1.2 !important;
+    border-radius: 6px;
+  }
+
+  /* Map control floating buttons */
+  .control-btn { width: 40px; height: 40px; }
+
+  /* Bottom navigation tweaks */
+  .bottom-nav { height: 60px; }
+  .nav-item i { font-size: 20px; }
+
+  /* Typography scale adjustments */
+  .text-xl { font-size: 1.125rem !important; line-height: 1.5rem !important; }
+  .text-2xl { font-size: 1.25rem !important; line-height: 1.75rem !important; }
+}

@@ -1,0 +1,170 @@
+ERROR - 2025-12-11 12:54:17 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2025-12-11 12:54:17 --> from: 250 OK
+
+to: 501 <eastrandtrucks.com>: recipient address must contain a domain
+
+The following SMTP error was encountered: 501 <eastrandtrucks.com>: recipient address must contain a domain
+
+reset: 250 Reset OK
+
+ERROR - 2025-12-11 12:55:00 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2025-12-11 12:55:00 --> from: 250 OK
+
+to: 
+The following SMTP error was encountered: 
+reset: 250 Accepted
+
+ERROR - 2025-12-11 12:55:01 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2025-12-11 12:55:01 --> from: 250 Reset OK
+
+to: 250 OK
+
+data: 250 Accepted
+
+The following SMTP error was encountered: 250 Accepted
+
+reset: 354 Enter message, ending with "." on a line by itself
+
+The following SMTP error was encountered: 354 Enter message, ending with "." on a line by itself
+
+ERROR - 2025-12-11 12:55:11 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2025-12-11 12:55:11 --> from: 
+The following SMTP error was encountered: 
+reset: 
+The following SMTP error was encountered: 
+ERROR - 2025-12-11 12:55:21 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2025-12-11 12:55:21 --> from: 
+The following SMTP error was encountered: 
+reset: 
+The following SMTP error was encountered: 
+ERROR - 2025-12-11 12:55:31 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2025-12-11 12:55:31 --> from: 
+The following SMTP error was encountered: 
+reset: 
+The following SMTP error was encountered: 
+ERROR - 2025-12-11 12:55:41 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2025-12-11 12:55:41 --> from: 
+The following SMTP error was encountered: 
+reset: 
+The following SMTP error was encountered: 
+ERROR - 2025-12-11 12:55:51 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2025-12-11 12:55:51 --> from: 
+The following SMTP error was encountered: 
+reset: 
+The following SMTP error was encountered: 
+ERROR - 2025-12-11 12:56:01 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2025-12-11 12:56:01 --> from: 
+The following SMTP error was encountered: 
+reset: 
+The following SMTP error was encountered: 
+ERROR - 2025-12-11 13:32:14 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2025-12-11 13:32:14 --> from: 250 OK
+
+to: 
+The following SMTP error was encountered: 
+reset: 250 Accepted
+
+ERROR - 2025-12-11 13:32:14 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2025-12-11 13:32:14 --> from: 250 Reset OK
+
+to: 250 OK
+
+data: 250 Accepted
+
+The following SMTP error was encountered: 250 Accepted
+
+reset: 354 Enter message, ending with "." on a line by itself
+
+The following SMTP error was encountered: 354 Enter message, ending with "." on a line by itself
+
+ERROR - 2025-12-11 13:32:24 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2025-12-11 13:32:24 --> from: 
+The following SMTP error was encountered: 
+reset: 
+The following SMTP error was encountered: 
+ERROR - 2025-12-11 13:32:34 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2025-12-11 13:32:34 --> from: 
+The following SMTP error was encountered: 
+reset: 
+The following SMTP error was encountered: 
+ERROR - 2025-12-11 13:32:44 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2025-12-11 13:32:44 --> from: 
+The following SMTP error was encountered: 
+reset: 
+The following SMTP error was encountered: 
+ERROR - 2025-12-11 13:32:54 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2025-12-11 13:32:54 --> from: 
+The following SMTP error was encountered: 
+reset: 
+The following SMTP error was encountered: 
+ERROR - 2025-12-11 13:33:38 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2025-12-11 13:33:38 --> from: 250 OK
+
+to: 
+The following SMTP error was encountered: 
+reset: 250 Accepted
+
+ERROR - 2025-12-11 13:33:38 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2025-12-11 13:33:38 --> from: 250 Reset OK
+
+to: 250 OK
+
+data: 250 Accepted
+
+The following SMTP error was encountered: 250 Accepted
+
+reset: 354 Enter message, ending with "." on a line by itself
+
+The following SMTP error was encountered: 354 Enter message, ending with "." on a line by itself
+
+ERROR - 2025-12-11 13:33:48 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2025-12-11 13:33:48 --> from: 
+The following SMTP error was encountered: 
+reset: 
+The following SMTP error was encountered: 
+ERROR - 2025-12-11 13:35:07 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2025-12-11 13:35:07 --> from: 250 OK
+
+to: 
+The following SMTP error was encountered: 
+reset: 250 Accepted
+
+ERROR - 2025-12-11 13:35:07 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2025-12-11 13:35:07 --> from: 250 Reset OK
+
+to: 250 OK
+
+data: 250 Accepted
+
+The following SMTP error was encountered: 250 Accepted
+
+reset: 354 Enter message, ending with "." on a line by itself
+
+The following SMTP error was encountered: 354 Enter message, ending with "." on a line by itself
+
+ERROR - 2025-12-11 13:35:17 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2025-12-11 13:35:17 --> from: 
+The following SMTP error was encountered: 
+reset: 
+The following SMTP error was encountered: 
+ERROR - 2025-12-11 13:35:27 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2025-12-11 13:35:27 --> from: 
+The following SMTP error was encountered: 
+reset: 
+The following SMTP error was encountered: 
+ERROR - 2025-12-11 13:35:37 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2025-12-11 13:35:37 --> from: 
+The following SMTP error was encountered: 
+reset: 
+The following SMTP error was encountered: 
+ERROR - 2025-12-11 13:35:47 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2025-12-11 13:35:47 --> from: 
+The following SMTP error was encountered: 
+reset: 
+The following SMTP error was encountered: 
+ERROR - 2025-12-11 13:35:57 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2025-12-11 13:35:57 --> from: 
+The following SMTP error was encountered: 
+reset: 
+The following SMTP error was encountered: 
+ERROR - 2025-12-11 19:28:19 --> Failed to send payment emails: Undefined array key "start_date"

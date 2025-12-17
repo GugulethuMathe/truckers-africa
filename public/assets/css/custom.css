@@ -1,0 +1,47 @@
+.bg-gray-900\/80 {
+    background-color: rgb(14 33 64) !important;
+}
+button {
+    background-color: rgb(14 33 64) !important;
+}
+input {
+    color: black !important;
+}
+
+/* Terms page styling fixes */
+.prose p,
+.prose strong,
+.prose li,
+.prose li strong,
+.prose ul,
+.prose ol {
+    color: #1f2937;
+}
+
+.prose strong {
+    font-weight: 600;
+}
+
+.prose h1,
+.prose h2,
+.prose h3,
+.prose h4,
+.prose h5,
+.prose h6 {
+    color: #1f2937;
+    font-weight: 700;
+}
+
+/* Add spacing between sections */
+.prose h2 {
+    margin-top: 3rem;
+    margin-bottom: 1rem;
+    padding-top: 1.5rem;
+    border-top: 1px solid #e5e7eb;
+}
+
+.prose h2:first-of-type {
+    margin-top: 2rem;
+    border-top: none;
+    padding-top: 0;
+}

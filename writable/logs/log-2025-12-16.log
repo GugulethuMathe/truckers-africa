@@ -1,0 +1,105 @@
+ERROR - 2025-12-16 06:56:19 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2025-12-16 06:56:19 --> 220 da100.is.cc ESMTP Exim 4.98.2 Mon, 15 Dec 2025 23:56:19 -0500
+
+hello: 250-da100.is.cc Hello da100.is.cc [209.159.148.130]
+250-SIZE 52428800
+250-LIMITS MAILMAX=100 RCPTMAX=150
+250-8BITMIME
+250-PIPELINING
+250-PIPECONNECT
+250-STARTTLS
+250 HELP
+
+starttls: 220 TLS go ahead
+
+hello: 250-da100.is.cc Hello da100.is.cc [209.159.148.130]
+250-SIZE 52428800
+250-LIMITS MAILMAX=100 RCPTMAX=150
+250-8BITMIME
+250-PIPELINING
+250-PIPECONNECT
+250-AUTH PLAIN LOGIN
+250 HELP
+
+from: 550-Account admin@truckersafrica.com can not send emails from
+550 noreply@truckersafrica.com.
+
+The following SMTP error was encountered: 550-Account admin@truckersafrica.com can not send emails from
+550 noreply@truckersafrica.com.
+
+reset: 250 Reset OK
+
+ERROR - 2025-12-16 06:56:19 --> Failed to send password reset email: 220 da100.is.cc ESMTP Exim 4.98.2 Mon, 15 Dec 2025 23:56:19 -0500
+<br><pre>hello: 250-da100.is.cc Hello da100.is.cc [209.159.148.130]
+250-SIZE 52428800
+250-LIMITS MAILMAX=100 RCPTMAX=150
+250-8BITMIME
+250-PIPELINING
+250-PIPECONNECT
+250-STARTTLS
+250 HELP
+</pre><pre>starttls: 220 TLS go ahead
+</pre><pre>hello: 250-da100.is.cc Hello da100.is.cc [209.159.148.130]
+250-SIZE 52428800
+250-LIMITS MAILMAX=100 RCPTMAX=150
+250-8BITMIME
+250-PIPELINING
+250-PIPECONNECT
+250-AUTH PLAIN LOGIN
+250 HELP
+</pre><pre>from: 550-Account admin@truckersafrica.com can not send emails from
+550 noreply@truckersafrica.com.
+</pre>The following SMTP error was encountered: 550-Account admin@truckersafrica.com can not send emails from
+550 noreply@truckersafrica.com.
+<br><pre>reset: 250 Reset OK
+</pre>Unable to send email using SMTP. Your server might not be configured to send mail using this method.<br><pre>Date: Tue, 16 Dec 2025 06:56:18 +0200
+From: &quot;Truckers Africa&quot; &lt;noreply@truckersafrica.com&gt;
+Return-Path: &lt;noreply@truckersafrica.com&gt;
+To: asante.ddgl@gmail.com
+Subject: =?UTF-8?Q?Password=20Reset=20Request?=
+Reply-To: &lt;noreply@truckersafrica.com&gt;
+User-Agent: CodeIgniter
+X-Sender: noreply@truckersafrica.com
+X-Mailer: CodeIgniter
+X-Priority: 3 (Normal)
+Message-ID: &lt;6940e672eb5161.27069112@truckersafrica.com&gt;
+Mime-Version: 1.0
+
+
+Content-Type: multipart/alternative; boundary=&quot;B_ALT_6940e672eb5363.14809110&quot;
+
+This is a multi-part message in MIME format.
+Your email application may not support this format.
+
+--B_ALT_6940e672eb5363.14809110
+Content-Type: text/plain; charset=UTF-8
+Content-Transfer-Encoding: 8bit
+
+Hello Test 11.12.2025,
+
+An administrator has initiated a password reset for your Truckers Africa
+account.
+
+Click the link below to reset your password:
+https://truckersafrica.com/password/reset/92006bffd1ae2511429792cb19317ec0db4736dfdaf4de6e3db79e92d7648cdd
+
+This link will expire in 1 hour.
+
+If you didn&#039;t request this, please ignore this email.
+
+Best regards,
+Truckers Africa Team
+
+
+--B_ALT_6940e672eb5363.14809110
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+Hello Test 11.12.2025,=0A=0AAn administrator has initiated a password reset=
+ for your Truckers Africa account.=0A=0AClick the link below to reset your =
+password:=0Ahttps://truckersafrica.com/password/reset/92006bffd1ae251142979=
+2cb19317ec0db4736dfdaf4de6e3db79e92d7648cdd=0A=0AThis link will expire in 1=
+ hour.=0A=0AIf you didn&#039;t request this, please ignore this email.=0A=0ABest=
+ regards,=0ATruckers Africa Team
+
+--B_ALT_6940e672eb5363.14809110--</pre>

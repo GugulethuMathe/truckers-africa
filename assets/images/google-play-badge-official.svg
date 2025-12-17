@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="155" height="60" viewBox="0 0 155 60">
+  <defs>
+    <linearGradient id="playGradient1" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#00d4ff"/>
+      <stop offset="100%" style="stop-color:#0099cc"/>
+    </linearGradient>
+    <linearGradient id="playGradient2" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#ffce00"/>
+      <stop offset="100%" style="stop-color:#ff9500"/>
+    </linearGradient>
+    <linearGradient id="playGradient3" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#ff4444"/>
+      <stop offset="100%" style="stop-color:#cc0000"/>
+    </linearGradient>
+    <linearGradient id="playGradient4" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#00e676"/>
+      <stop offset="100%" style="stop-color:#00c853"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Background with rounded corners and border -->
+  <rect width="155" height="60" rx="6" ry="6" fill="#000000" stroke="#A6A6A6" stroke-width="0.5"/>
+
+  <!-- Play Store Icon -->
+  <g transform="translate(8, 12)">
+    <!-- Play icon parts with official colors -->
+    <path d="M3 3 L15 15 L3 27 Z" fill="url(#playGradient1)"/>
+    <path d="M15 15 L27 3 L27 27 Z" fill="url(#playGradient2)"/>
+    <path d="M15 15 L27 27 L3 27 Z" fill="url(#playGradient3)"/>
+    <path d="M15 15 L3 3 L27 3 Z" fill="url(#playGradient4)"/>
+  </g>
+
+  <!-- Text matching official badge -->
+  <g fill="white" font-family="Arial, sans-serif">
+    <text x="42" y="18" font-size="8" font-weight="normal" letter-spacing="0.5">GET IT ON</text>
+    <text x="42" y="36" font-size="16" font-weight="bold" letter-spacing="0.1">Google Play</text>
+  </g>
+</svg>

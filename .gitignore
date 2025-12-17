@@ -1,0 +1,13 @@
+# Ignore huge zip backups
+*.zip
+*.rar
+*.7z
+
+# Ignore CodeIgniter system & vendor files (they should be installed via composer)
+/vendor/
+/system/
+
+
+# Ignore environment settings (sensitive passwords)
+.env
+
