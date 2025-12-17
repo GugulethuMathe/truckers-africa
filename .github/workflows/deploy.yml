@@ -20,7 +20,7 @@ jobs:
           username: ${{ secrets.FTP_USERNAME }}
           password: ${{ secrets.FTP_PASSWORD }}
           # The path on the server where files go (e.g., /domains/yourdomain.com/public_html)
-          server-dir: /domains/yourdomain.com/public_html 
+          server-dir: /domains/truckers-africa.com/public_html/
           exclude: |
             **/.git*
             **/.git*/**
